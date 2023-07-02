@@ -13,3 +13,10 @@ class ValueManager {
   static const theContainerPaddingValueTopAndBottom = 10.0;
   static const theContainerPaddingValueRightAndLeft = 40.0;
 }
+
+class IDManager {
+  static const int mainScreenID = 1;
+  static const int secondScreenID = 2;
+  static const int thirdScreenID = 3;
+  static const int fourthScreenID = 4;
+}

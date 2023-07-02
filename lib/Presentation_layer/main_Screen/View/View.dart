@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ui_saad/Presentation_layer/main_Screen/Widget/Container.dart';
 import 'package:ui_saad/Presentation_layer/main_Screen/Widget/Top_Container.dart';
+import 'package:ui_saad/Presentation_layer/main_Screen/Widget/bottomsheet.dart';
 import 'package:ui_saad/Presentation_layer/resources/ColorManager.dart';
-import 'package:ui_saad/Presentation_layer/resources/TextManager.dart';
 import 'package:ui_saad/Presentation_layer/resources/ValueManager.dart';
 
 class MainScreen extends StatelessWidget {
@@ -13,7 +13,9 @@ class MainScreen extends StatelessWidget {
     return Scaffold(
       body: ListView(
         children: [
-          TopContainer(),
+          const TopContainer(
+            id: IDManager.mainScreenID,
+          ),
           SizedBox(
             height: MediaQuery.of(context).size.height,
             child: ListView.builder(
@@ -28,6 +30,7 @@ class MainScreen extends StatelessWidget {
           ),
         ],
       ),
+      bottomSheet: const Bottomsheet(),
     );
   }
 }

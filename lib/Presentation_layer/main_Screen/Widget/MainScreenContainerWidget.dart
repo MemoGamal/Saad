@@ -4,8 +4,8 @@ import 'package:ui_saad/Presentation_layer/resources/TextManager.dart';
 import 'package:ui_saad/Presentation_layer/resources/ValueManager.dart';
 import 'package:ui_saad/Presentation_layer/resources/fontsizemanager.dart';
 
-class ContainerWidgets extends StatelessWidget {
-  const ContainerWidgets({super.key});
+class MainScreenContainerWidgets extends StatelessWidget {
+  const MainScreenContainerWidgets({super.key});
 
   @override
   Widget build(BuildContext context) {
