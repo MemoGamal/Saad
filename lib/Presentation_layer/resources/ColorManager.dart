@@ -4,6 +4,7 @@ class ColorManager {
   static const Color topContainerColor = Color(0xffd9d9d9);
   static const Color topContainerText1Colours = Colors.black;
   static const Color topContainerText2Colours = Colors.grey;
+  static const Color thirdScreenLessonsContainerColor = Color(0xff3fa6ab);
 
   static const containerColors = [
     // Container

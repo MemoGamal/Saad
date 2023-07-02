@@ -12,6 +12,12 @@ class ValueManager {
   static const firstScreenContainerWidth = 100.0;
   static const theContainerPaddingValueTopAndBottom = 10.0;
   static const theContainerPaddingValueRightAndLeft = 40.0;
+
+  // Third_Screen
+  static const double thirdScreenPaddingHorizontly = 50;
+  static const double thirdScreenPaddingVeritcally = 10;
+  static const double thirdScreenContainerwidth = 100;
+  static const double thirdScreenContainerHeight = 100;
 }
 
 class IDManager {

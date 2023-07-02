@@ -4,4 +4,7 @@ class Fontsizemanager {
 
   static const theContainerText1FontSize = 25.0;
   static const theContainerText2FontSize = 12.0;
+
+  //Third_Screen
+  static const thirdScreentext1FontSize = 30.0;
 }

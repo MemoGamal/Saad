@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:ui_saad/Presentation_layer/Third_Screen/Widgets/containerWidget.dart';
 import 'package:ui_saad/Presentation_layer/base/baseViewModel.dart';
 import 'package:ui_saad/Presentation_layer/main_Screen/Widget/secondContainerWidget.dart';
 
@@ -47,7 +48,7 @@ class mainScreenViewModel extends BaseViewModel
         tempMap.addAll({id: myContainerWidget});
         break;
       case 3:
-        myContainerWidget = const MainScreenContainerWidgets();
+        myContainerWidget = const ThirdScreenContainerWidgets();
         tempMap.addAll({id: myContainerWidget});
         break;
       default:

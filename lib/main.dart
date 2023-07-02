@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_saad/Presentation_layer/Third_Screen/view/view.dart';
 import 'package:ui_saad/Presentation_layer/main_Screen/View/View.dart';
 import 'package:ui_saad/Presentation_layer/second_Screen/view/view.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SecondScreen(),
+      home: ThirdScreen(),
     );
   }
 }
